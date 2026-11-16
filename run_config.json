@@ -1,0 +1,14 @@
+{
+  "seed": 0,
+  "n_train": 4000,
+  "n_test": 1000,
+  "lm": "mistralai/Mistral-7B-v0.1",
+  "clip": "openai/clip-vit-base-patch32",
+  "resnet": "torchvision ResNet50 IMAGENET1K DEFAULT weights",
+  "dataset": "COCO val2017 (5k images), one random caption per image",
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "transformers": "5.22.1"
+  }
+}
